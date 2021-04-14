@@ -437,10 +437,10 @@ aside {
 		width: 49%;
 	}
 	
-	footer-content {
+	.footer-content {
 		display:flex;
-		justify-content:
-		align-items:
+		justify-content:space-between;
+		align-items:center;
 	}
 	
 	footer .content-wrapper {
@@ -494,6 +494,46 @@ aside {
 
 @media only screen and (min-width: 1200px) {
 	/*Desktop styles here*/
+	/*GENERAL*/
+	.content-wrapper {
+		max-width: 960px;
+	}
+	
+	.hero-area h1 {
+		width:75%;
+	}
+	
+	aside .content-wrapper {
+		justify-content:space-around;
+	}
+	
+	aside .content-wrapper .form-description,
+	aside .content-wrapper .form  {
+		width: 33.3%;
+	}
+	
+	.features h2 {
+		width: 92%;
+	}
+	
+	.features article {
+		flex-basis:25%;
+	}
+	
+	.reviews article div {
+		width:50%;
+	}
+	
+	/*ABOUT*/
+	.mission h2,
+	.contact-section .content-wrapper h2 {
+		width:100%;
+	}
+	
+	/*FAQ*/
+	.faq h2 {
+		width: 100%;
+	}
 }
 
 
