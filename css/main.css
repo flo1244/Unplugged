@@ -169,6 +169,14 @@ header .content-wrapper {
 	margin: 0;
 }
 
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 .header-divider {
 	width: 100%;
 	height: 1px;
@@ -271,7 +279,7 @@ aside .form {
 input[type=text] {
   box-sizing: border-box;
   width: 100%;
-  color: #2a423a;
+  color: #9E9495;
   font-style: italic;
   padding: 1em;
 }
@@ -314,6 +322,11 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.features i {
+	font-size: 3.75em;
+	margin-bottom: 40px;
 }
 
 .features p {
