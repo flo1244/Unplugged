@@ -127,12 +127,13 @@ p {
 	line-height: 1.285;
 }
 
+
 img {
-	
+	width: 100%;
 }
 
 figure {
-	
+	margin: 0;
 }
 
 address {
@@ -237,7 +238,11 @@ footer .copyright {
 
 /* Hero Area */
 
+
 .hero-area {
+	background: url('../img/hero.jpg') center no-repeat #333;
+	background-size: cover;
+	min-height: 500px;
 	display:flex;
 	justify-content: center;
 	flex-flow:row wrap;
@@ -288,6 +293,8 @@ input[type=button] {
 /*** Features ***/
 
 .features {
+  background: url('../img/background.jpg') center no-repeat #333;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -526,6 +533,10 @@ input[type=button] {
 		margin: 0;
 	}
 	
+	.hero-area {
+		min-height: 600px;
+	}
+	
 	/******ASIDE******/
 	
 	aside .content-wrapper {
@@ -566,7 +577,8 @@ input[type=button] {
 		justify-content: space-between;
 	}
 	
-	.reviews article div {
+	.reviews article div,
+	.reviews article figure {
 		width: 49%;
 	}
 	
@@ -691,6 +703,9 @@ input[type=button] {
 		font-size: 3.75em;
 	}
 	
+	.hero-area {
+		min-height: 750px;
+	}
 	
 	/*******ASIDE******/
 	aside .content-wrapper {
